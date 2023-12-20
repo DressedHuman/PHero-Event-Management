@@ -1,0 +1,245 @@
+[
+    {
+        "id": 1,
+        "name": "Grand Wedding Extravaganza",
+        "type": "Wedding",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://i.ibb.co/MC45pw8/wedding.jpg",
+                "price": "$15,000",
+                "description": "Let us take the wedding planning stress off your shoulders and walk you through the entire process, start to finish. We focus on your style, create your vision, and curate all the details in between."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Vendor Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Vendor Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Wedding Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Lucky Day Rentals",
+                "Monthly Check In Calls to Stay on Track",
+                "Assemble + Mail All Stationery (Save the Dates + Invitations)",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Rehearsal Run-Through",
+                "Full Wedding Day Coordination",
+                "Online Client Access Full Set of Guides",
+                "Gift of Online Pre-Marital Courses by Happily Ever After",
+                "Bridal Emergency Kit"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Birthday Bash Bonanza",
+        "type": "Birthday Party",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://source.unsplash.com/MTFqQH1trsA",
+                "price": "$8,000",
+                "description": "Celebrate your special day with a birthday bash bonanza! Our full planning and design package ensure a stress-free and unforgettable celebration."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Vendor Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Vendor Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Birthday Party Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Party Time Rentals",
+                "Monthly Check In Calls to Stay on Track",
+                "Assemble + Mail All Stationery (Invitations)",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Day-Of Coordination",
+                "Online Client Access Full Set of Guides",
+                "Birthday Gift Surprise",
+                "Party Favors for Guests"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Anniversary Affair",
+        "type": "Anniversary",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://i.ibb.co/hDkZSHx/anniversary.jpg",
+                "price": "$12,000",
+                "description": "Celebrate years of love with our anniversary affair package. We handle every detail to make your milestone unforgettable."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Vendor Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Vendor Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Anniversary Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Elegant Rentals",
+                "Monthly Check In Calls to Stay on Track",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Day-Of Coordination",
+                "Online Client Access Full Set of Guides",
+                "Anniversary Gift Surprise",
+                "Customized Anniversary Cake"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Engagement Elegance",
+        "type": "Engagement Party",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://i.ibb.co/rd36s4Q/engagement.webp",
+                "price": "$10,000",
+                "description": "Make your engagement truly elegant with our full planning and design package. We bring your vision to life for this special occasion."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Vendor Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Vendor Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Engagement Party Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Chic Rentals",
+                "Monthly Check In Calls to Stay on Track",
+                "Assemble + Mail All Stationery (Invitations)",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Day-Of Coordination",
+                "Online Client Access Full Set of Guides",
+                "Engagement Gift Surprise",
+                "Signature Cocktail Bar"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Retirement Rendezvous",
+        "type": "Retirement Party",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://i.ibb.co/rQf85FS/retirement.jpg",
+                "price": "$9,000",
+                "description": "Bid farewell in style with our retirement rendezvous package. We ensure a memorable send-off for the retiree."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Vendor Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Vendor Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Retirement Party Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Vintage Rentals",
+                "Monthly Check In Calls to Stay on Track",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Day-Of Coordination",
+                "Online Client Access Full Set of Guides",
+                "Retirement Gift Surprise",
+                "Customized Farewell Speech"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Alumni Reunion Extravaganza",
+        "type": "Alumni Reunion",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://i.ibb.co/qjvq3Ds/alumni.jpg",
+                "price": "$10,000",
+                "description": "Celebrate the memories and reconnect with fellow alumni at our reunion extravaganza. Our full planning and design package ensure a memorable and nostalgic event."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Alumni Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Alumni Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Alumni Reunion Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Vintage Decor",
+                "Monthly Check In Calls to Stay on Track",
+                "Assemble + Mail All Stationery (Invitations)",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Day-Of Coordination",
+                "Online Client Access Full Set of Guides",
+                "Alumni Souvenir Gift",
+                "Interactive Memory Lane Exhibit"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Family Reunion Fiesta",
+        "type": "Family Reunion",
+        "services": [
+            {
+                "name": "Full Planning + Design Package",
+                "image": "https://i.ibb.co/3p1Btdq/family.jpg",
+                "price": "$11,000",
+                "description": "Gather your loved ones for a family reunion fiesta. Our full planning and design package ensure a memorable and stress-free event."
+            }
+        ],
+        "details": {
+            "included": [
+                "Venue Scouting (if necessary) + Vendor Recommendations",
+                "Unlimited Communication",
+                "Customized Countdown Checklist",
+                "Timeline Creation + Vendor Confirmations and Communication",
+                "Venue Walkthrough + Customized Layout",
+                "Custom Mood Board",
+                "Full Family Reunion Design Plan Presentation",
+                "Design Mock Up Meeting with All Design Elements",
+                "Unlimited Access to Cozy Rentals",
+                "Monthly Check In Calls to Stay on Track",
+                "Inquire and Negotiate All Vendor Contracts",
+                "Complete Budget Management",
+                "Day-Of Coordination",
+                "Online Client Access Full Set of Guides",
+                "Family Reunion Gift Surprise",
+                "Interactive Family Games"
+            ],
+            "bookingLink": "url_to_booking_page"
+        }
+    }
+]
