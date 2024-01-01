@@ -7,6 +7,12 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+    ({ addVariant }) => {
+      addVariant('child', "& > *");
+      addVariant('child-hover', '& > *:hover');
+    }
+  ],
 }
 

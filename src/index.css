@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hover-effect {
+    @apply child:transition-transform child:border-b-2 child:border-b-transparent child:duration-[375ms] child-hover:-translate-y-1
+}
