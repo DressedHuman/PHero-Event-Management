@@ -28,7 +28,7 @@ const Header = () => {
 
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 mb-7'>
-            <img src={logo} className='w-[175px] md:w-[200px] lg:w-[175px] mx-auto lg:mx-0 invert dark:invert-[50%]' alt="" />
+            <img src={logo} className='w-[175px] md:w-[200px] lg:w-[175px] mx-auto lg:mx-0 invert dark:invert-0' alt="" />
             <div className='col-span-2 flex justify-between items-center'>
                 <div className='hidden md:flex gap-3 font-medium md:text-lg lg:text-xl hover-effect'>
                     {navlinks}

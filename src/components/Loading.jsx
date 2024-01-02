@@ -1,14 +1,22 @@
 import { useContext } from "react";
 import { AuthContext } from "../Auth/Auth";
 import PropTypes from 'prop-types';
+import './loading.css';
 
 const Loading = ({ children }) => {
     const { loading } = useContext(AuthContext);
 
-    if(loading){
-        return <div className="text-center mt-[45vh]">
-            <span className="loading loading-ring loading-lg"></span>
-        </div>;
+    if (loading) {
+        return (
+            <div className={'preloader'}>
+                <div className={'preloader-inner'}>
+                    <div className={'preloader-icon'}>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        );
     }
     return children;
 };

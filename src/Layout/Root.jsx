@@ -7,6 +7,7 @@ const Root = () => {
         <div className='w-[90%] mx-auto mt-7'>
             <Loading>
                 <Header />
+                <hr className="border-2 rounded opacity-25 border-black dark:border-white mb-3" />
                 <Outlet />
             </Loading>
         </div>
