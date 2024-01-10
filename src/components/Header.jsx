@@ -16,9 +16,9 @@ const Header = () => {
     }
 
     const navlinks = <>
-        <NavLink className={({ isActive, isPending }) => isActive ? 'text-[goldenrod]' : isPending ? "text-primary" : ''} to={'/'}>Home</NavLink>
-        <NavLink className={({ isActive, isPending }) => isActive ? 'text-[goldenrod]' : isPending ? "text-primary" : ''} to={'/about'}>About</NavLink>
-        <NavLink className={({ isActive, isPending }) => isActive ? 'text-[goldenrod]' : isPending ? "text-primary" : ''} to={'/contact'}>Contact</NavLink>
+        <NavLink className={({ isActive, isPending }) => isActive ? 'text-blue-700 md:text-[goldenrod] text-lg' : isPending ? "text-primary text-lg" : 'text-[red] md:text-white text-lg'} to={'/'}>Home</NavLink>
+        <NavLink className={({ isActive, isPending }) => isActive ? 'text-blue-700 md:text-[goldenrod] text-lg' : isPending ? "text-primary text-lg" : 'text-[red] md:text-white text-lg'} to={'/about'}>About</NavLink>
+        <NavLink className={({ isActive, isPending }) => isActive ? 'text-blue-700 md:text-[goldenrod] text-lg' : isPending ? "text-primary text-lg" : 'text-[red] md:text-white text-lg'} to={'/contact'}>Contact</NavLink>
     </>
 
     const authLinks = <>
@@ -27,7 +27,7 @@ const Header = () => {
     </>
 
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 mb-7'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-3 pr-2 md:pr-0 mb-1 bg-pink-600'>
             <img src={logo} className='w-[175px] md:w-[200px] lg:w-[175px] mx-auto lg:mx-0 invert dark:invert-0' alt="" />
             <div className='col-span-2 flex justify-between items-center'>
                 <div className='hidden md:flex gap-3 font-medium md:text-lg lg:text-xl hover-effect'>
@@ -45,8 +45,8 @@ const Header = () => {
                 </div>
                 {
                     user ? <div className='flex gap-3 items-center font-medium text-base md:text-lg lg:text-xl'>
-                        <h2 className='font-normal'>Hello, <span className='capitalize text-[green]'>{user.displayName || user.email.split('@')[0]}</span>!</h2>
-                        <button onClick={handleLogOut} className='hover:text-[goldenrod]'>
+                        <h2 className='font-normal'>Hello, <span className='capitalize text-[black]'>{user.displayName || user.email.split('@')[0]}</span>!</h2>
+                        <button onClick={handleLogOut} className='hover:text-[blue]'>
                             <RiLogoutCircleRLine />
                         </button>
                     </div> : <div className='flex gap-3 font-medium text-base md:text-lg lg:text-xl hover-effect'>

@@ -31,7 +31,7 @@
     width: 72px;
     height: 72px;
     border-radius: 100%;
-    background: #d5d0c5;
+    background: #cfc5bf;
     -webkit-animation: preloader-fx 1.6s linear infinite;
     animation: preloader-fx 1.6s linear infinite;
 }
@@ -45,7 +45,11 @@
     0% {
         -webkit-transform: scale(0, 0);
         transform: scale(0, 0);
-        opacity: 0.5;
+        opacity: 0.357;
+    }
+
+    50% {
+        opacity: 0.12;
     }
 
     100% {

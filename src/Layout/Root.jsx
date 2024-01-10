@@ -4,10 +4,12 @@ import Loading from "../components/Loading";
 
 const Root = () => {
     return (
-        <div className='w-[90%] mx-auto mt-7'>
+        <div className='relative w-[90%] mx-auto mt-1'>
             <Loading>
-                <Header />
-                <hr className="border-2 rounded opacity-25 border-black dark:border-white mb-3" />
+                <div className="sticky top-0 z-50">
+                    <Header />
+                    <hr className="border-2 rounded opacity-25 border-black dark:border-white mb-3" />
+                </div>
                 <Outlet />
             </Loading>
         </div>

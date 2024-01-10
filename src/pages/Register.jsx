@@ -1,9 +1,10 @@
-import { useContext, useEffect } from "react";
+import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../Auth/Auth";
 import { useNavigate } from "react-router-dom";
 
 const Register = () => {
-    const { user, setUser, SignUp } = useContext(AuthContext);
+    const { user, setUser, SignUp, setLoading } = useContext(AuthContext);
+    const [error, setError] = useState('');
     const navigate = useNavigate();
 
     const handleRegister = (e) => {
@@ -14,10 +15,15 @@ const Register = () => {
 
         SignUp(email, password)
             .then(response => {
+                setError('');
                 setUser(response.user);
                 console.log("User creation successful");
             })
-            .catch(error => console.error(error));
+            .catch(error => {
+                console.error(error.message);
+                setLoading(false);
+                setError(error.message);
+            });
     }
 
     useEffect(() => {
@@ -48,6 +54,7 @@ const Register = () => {
                     <button className="btn btn-primary text-white font-medium text-xl">Register</button>
                 </div>
             </form>
+            <p className="text-error">{error}</p>
         </div>
     );
 };
